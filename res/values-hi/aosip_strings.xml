@@ -15,12 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">डर्पफेस्ट अपडेटर </string>
-    <string name="update_settings_summary">ROM के नवीनतम संस्करण की जाँच करें</string>
-    <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
-    <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
-
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">आँकड़े रीसेट करें</string>
     <string name="battery_stats_message">बैटरी इतिहास आँकड़े रीसेट करने जा रहे हैं</string>

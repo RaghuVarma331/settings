@@ -12,9 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">Atualizador DerpFest</string>
-    <string name="update_settings_summary">Procurar pela versão mais recente da Rom</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Redefinir estatísticas</string>
     <string name="battery_stats_message">As estatísticas do histórico da bateria serão redefinidas</string>

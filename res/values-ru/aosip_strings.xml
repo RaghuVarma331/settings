@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">Менеджер обновлений DerpFest</string>
-    <string name="update_settings_summary">Проверить наличие последней версии прошивки</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Сбросить статистику</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>

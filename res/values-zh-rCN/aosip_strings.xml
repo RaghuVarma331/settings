@@ -15,10 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">DerpFest系统更新</string>
-    <string name="update_settings_summary">检查最新版本的ROM</string>
-
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重置状态</string>
     <string name="battery_stats_message">电池历史状态将被重置</string>

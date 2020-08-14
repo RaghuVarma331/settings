@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">DerpFest Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
-    <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
-    <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
+    <string name="update_settings_title">Os_Updates</string>
+    <string name="update_settings_summary">Updated to Android 10</string>
+    <string name="update_package" translatable="false">org.pixelexperience.ota</string>
+    <string name="update_activity" translatable="false">org.pixelexperience.ota.UpdatesActivity</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>

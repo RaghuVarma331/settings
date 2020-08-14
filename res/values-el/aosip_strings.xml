@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">Ενημερώσεις Derp-Fest</string>
-    <string name="update_settings_summary">Έλεγχος για ενημέρωση στην τελευταία έκδοση</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Διαγραφή στατιστικών</string>
