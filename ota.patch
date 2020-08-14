@@ -1,0 +1,108 @@
+From 78793108fe932bb16f0616427f8e2c669dbfd67a Mon Sep 17 00:00:00 2001
+From: RaghuVarma331 <raghuvarma331@gmail.com>
+Date: Fri, 14 Aug 2020 12:45:32 +0000
+Subject: [PATCH] OTA: add out ota app name
+
+Signed-off-by: RaghuVarma331 <raghuvarma331@gmail.com>
+---
+ res/values-el/aosip_strings.xml     | 3 ---
+ res/values-hi/aosip_strings.xml     | 6 ------
+ res/values-pt-rBR/aosip_strings.xml | 3 ---
+ res/values-ru/aosip_strings.xml     | 3 ---
+ res/values-zh-rCN/aosip_strings.xml | 4 ----
+ res/values/aosip_strings.xml        | 8 ++++----
+ 6 files changed, 4 insertions(+), 23 deletions(-)
+
+diff --git a/res/values-el/aosip_strings.xml b/res/values-el/aosip_strings.xml
+index 6415683440e..7c0e542d90e 100644
+--- a/res/values-el/aosip_strings.xml
++++ b/res/values-el/aosip_strings.xml
+@@ -15,9 +15,6 @@
+      limitations under the License.
+ -->
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+-    <!-- AOSiP Updater -->
+-    <string name="update_settings_title">Ενημερώσεις Derp-Fest</string>
+-    <string name="update_settings_summary">Έλεγχος για ενημέρωση στην τελευταία έκδοση</string>
+ 
+     <!-- Battery stats reset -->
+     <string name="battery_stats_reset">Διαγραφή στατιστικών</string>
+diff --git a/res/values-hi/aosip_strings.xml b/res/values-hi/aosip_strings.xml
+index b4d1c98bf31..2ae7cfd63b7 100644
+--- a/res/values-hi/aosip_strings.xml
++++ b/res/values-hi/aosip_strings.xml
+@@ -15,12 +15,6 @@
+      limitations under the License.
+ -->
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+-    <!-- AOSiP Updater -->
+-    <string name="update_settings_title">डर्पफेस्ट अपडेटर </string>
+-    <string name="update_settings_summary">ROM के नवीनतम संस्करण की जाँच करें</string>
+-    <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
+-    <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
+-
+     <!-- Battery stats reset -->
+     <string name="battery_stats_reset">आँकड़े रीसेट करें</string>
+     <string name="battery_stats_message">बैटरी इतिहास आँकड़े रीसेट करने जा रहे हैं</string>
+diff --git a/res/values-pt-rBR/aosip_strings.xml b/res/values-pt-rBR/aosip_strings.xml
+index fea84b24e65..646b241d58c 100644
+--- a/res/values-pt-rBR/aosip_strings.xml
++++ b/res/values-pt-rBR/aosip_strings.xml
+@@ -12,9 +12,6 @@
+      limitations under the License.
+ -->
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+-    <!-- AOSiP Updater -->
+-    <string name="update_settings_title">Atualizador DerpFest</string>
+-    <string name="update_settings_summary">Procurar pela versão mais recente da Rom</string>
+     <!-- Battery stats reset -->
+     <string name="battery_stats_reset">Redefinir estatísticas</string>
+     <string name="battery_stats_message">As estatísticas do histórico da bateria serão redefinidas</string>
+diff --git a/res/values-ru/aosip_strings.xml b/res/values-ru/aosip_strings.xml
+index ec73f6ced0e..dea4123c743 100644
+--- a/res/values-ru/aosip_strings.xml
++++ b/res/values-ru/aosip_strings.xml
+@@ -15,9 +15,6 @@
+      limitations under the License.
+ -->
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+-    <!-- AOSiP Updater -->
+-    <string name="update_settings_title">Менеджер обновлений DerpFest</string>
+-    <string name="update_settings_summary">Проверить наличие последней версии прошивки</string>
+     <!-- Battery stats reset -->
+     <string name="battery_stats_reset">Сбросить статистику</string>
+     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
+diff --git a/res/values-zh-rCN/aosip_strings.xml b/res/values-zh-rCN/aosip_strings.xml
+index 18a62bc701e..6a4bdaa5856 100644
+--- a/res/values-zh-rCN/aosip_strings.xml
++++ b/res/values-zh-rCN/aosip_strings.xml
+@@ -15,10 +15,6 @@
+      limitations under the License.
+ -->
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+-    <!-- AOSiP Updater -->
+-    <string name="update_settings_title">DerpFest系统更新</string>
+-    <string name="update_settings_summary">检查最新版本的ROM</string>
+-
+     <!-- Battery stats reset -->
+     <string name="battery_stats_reset">重置状态</string>
+     <string name="battery_stats_message">电池历史状态将被重置</string>
+diff --git a/res/values/aosip_strings.xml b/res/values/aosip_strings.xml
+index df0c281860c..9f944bbf625 100644
+--- a/res/values/aosip_strings.xml
++++ b/res/values/aosip_strings.xml
+@@ -16,10 +16,10 @@
+ -->
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- AOSiP Updater -->
+-    <string name="update_settings_title">DerpFest Updater</string>
+-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+-    <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
+-    <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
++    <string name="update_settings_title">Os_Updates</string>
++    <string name="update_settings_summary">Updated to Android 10</string>
++    <string name="update_package" translatable="false">org.pixelexperience.ota</string>
++    <string name="update_activity" translatable="false">org.pixelexperience.ota.UpdatesActivity</string>
+ 
+     <!-- Battery stats reset -->
+     <string name="battery_stats_reset">Reset stats</string>
